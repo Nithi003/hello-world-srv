@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nithi003/hello-world-srv#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
   }
 }
