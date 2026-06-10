@@ -89,7 +89,13 @@ app.get('/', (req, res) => {
 })
 
 app.get('/ping', (req, res) => {
-  res.send('Pong 🎇 , 4/7/26')
+  res.send('Pong 🎇 , 10/06/26')
+})
+
+app.post('/wati-webhook', (req, res) => {
+  console.log("wati-webhook");
+  console.log(req.body);
+  res.json(req.body);
 })
 
 app.listen(port, () => {
